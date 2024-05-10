@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="module" src="./src/index.js"></script>
+  </head>
+  <body class="p-3">
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <a class="navbar-brand" href="./index.html">
+        <h1>VK</h1>
+      </a>
+      </button>
+      <div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link mx-2 rounded-1 border-bottom border-3 border-dark" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 rounded-1 border-bottom border-3 border-dark" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 rounded-1 border-bottom border-3 border-dark" href="./experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 rounded-1 border-bottom border-3 border-dark" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main -->
+    <h1>Contact</h1>
+    <p>Want to contact me?</p> 
+    <p> You can reach me at my school email
+        <a href="mailto:vladkolmorgan@my.cwi.edu?subject=Personal%20Portfolio%20Mail">vladkolmorgan@my.cwi.edu</a>
+         my personal email
+        <a href="mailto:kolmorganvlad@gmail.com?subject=Personal%20Portfolio%20Mail">kolmorganvlad@gmail.com</a>
+      or you can try this form!</p>
+    <div>
+      <h2>Form</h2>
+      <form action="mailto:vladkolmorgan@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <div>
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Text" name="name"  required>
+        </div>
+        <div>
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="name@email.com" name="email" required>
+        </div>
+        <div>
+          <label for="tel" class="form-label">Phone:</label>
+          <input type="tel" class="form-control" id="tel" placeholder="xxx-xxx-xxxx" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </div>
+        <div>
+          <label for="comment">Reason For Contact:</label>
+          <textarea class="form-control" rows="3" id="comment" name="comment" placeholder="We are reaching out because..."  required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 me-2">Submit</button>
+        <button type="reset" class="btn btn-danger mt-3">Reset</button>
+      </form>
+    </div>
+    <!-- Footer -->
+    <footer class="row mt-5 border-top border-3 border-dark">
+      <div class=" col-sm-6 col-md-6 col-lg-6 col-6">
+        <ul class="navbar-nav text-center">
+          <h1 class="border-bottom border-5 border-dark">Quick Access</h1>
+          <li class="nav-item">
+            <a class="nav-link pt-1 mt-3 rounded-5 border-bottom border-top border-5 border-dark bg-warning" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-1 mt-3 rounded-5 border-bottom border-top border-5 border-dark bg-warning" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-1 mt-3 rounded-5 border-bottom border-top border-5 border-dark bg-warning" href="./experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-1 mt-3 rounded-5 border-bottom border-top border-5 border-dark bg-warning" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-6 text-center">
+          <a class="navbar-brand" href="./index.html">
+            <h1>VK</h1>
+          </a>
+          <p>
+            <a href="mailto:vladkolmorgan@my.cwi.edu?subject=Personal%20Portfolio%20Mail">vladkolmorgan@my.cwi.edu</a>
+            <a href="mailto:kolmorganvlad@gmail.com?subject=Personal%20Portfolio%20Mail">kolmorganvlad@gmail.com</a>
+          </p>
+          <a class="navbar-brand"
+            href="https://github.com/VladKolmorgan/vladkolmorgan.github.io" 
+            target="_blank">
+            <img src="./assets/iconmonstr-github-5-50.png" 
+            alt="github Icon">
+          </a>
+          <a class="navbar-brand"
+            href="https://www.linkedin.com/in/vlad-kolmorgan-a795272a1/" 
+            target="_blank">
+            <img src="./assets/iconmonstr-linkedin-5-50.png" 
+            alt="linkedin Icon">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

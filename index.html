@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+----------------------------------------------------------
+  #Original Author:Vlad Kolmorgan
+  #Date Created:5/7/2024
+  #Version:v 1.0.0
+  #Date Last Modified:5/10/2024
+  #Modified by:Vlad Kolmorgan
+  #Modification log:
+  v 0.1.0 - 5/7/2024 - Worked out the layout for the website
+  v 0.2.0 - 5/9/2024 - Added slideshow to experience, modified footer and nav to be more aesthetic, form validation, animation
+  v 1.0.0 - 5/10/2024 - Finalized all pages, finalized form, finalized links, finalized images, content filled in
+--References---------------------------------------------------------- 
+  Images -    Sources included in image tags
+--Other Notes---------------------------------------------
+If there are images not showing they show in the page if you open preview in a new tab.
+----------------------------------------------------------
+-->
+<html lang="en">
+  <head>
+    <title>Vlad's Homepage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="module" src="./src/index.js"></script>
+  </head>
+  <body class="p-3">
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <a class="navbar-brand" href="./index.html">
+        <h1>VK</h1>
+      </a>
+      </button>
+      <div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link mx-2 rounded-1 border-bottom border-3 border-dark" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 rounded-1 border-bottom border-3 border-dark" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 rounded-1 border-bottom border-3 border-dark" href="./experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 rounded-1 border-bottom border-3 border-dark" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main -->
+    <h1>Vlad's Portfolio</h1>
+    <h2>A learning programmer's very cool website, learn more about me and the things I plan to do <a href="./about.html">here</a></h2>
+    <img src="https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?auto=compress&cs=tinysrgb&w=600" alt="computer code" style="width:100%">
+    <!-- Footer -->
+    <footer class="row mt-5 border-top border-3 border-dark">
+      <div class=" col-sm-6 col-md-6 col-lg-6 col-6">
+        <ul class="navbar-nav text-center">
+          <h1 class="border-bottom border-5 border-dark">Quick Access</h1>
+          <li class="nav-item">
+            <a class="nav-link pt-1 mt-3 rounded-5 border-bottom border-top border-5 border-dark bg-warning" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-1 mt-3 rounded-5 border-bottom border-top border-5 border-dark bg-warning" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-1 mt-3 rounded-5 border-bottom border-top border-5 border-dark bg-warning" href="./experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-1 mt-3 rounded-5 border-bottom border-top border-5 border-dark bg-warning" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-6 text-center">
+          <a class="navbar-brand" href="./index.html">
+            <h1>VK</h1>
+          </a>
+          <p>
+            <a href="mailto:vladkolmorgan@my.cwi.edu?subject=Personal%20Portfolio%20Mail">vladkolmorgan@my.cwi.edu</a>
+            <a href="mailto:kolmorganvlad@gmail.com?subject=Personal%20Portfolio%20Mail">kolmorganvlad@gmail.com</a>
+          </p>
+          <a class="navbar-brand"
+            href="https://github.com/VladKolmorgan/vladkolmorgan.github.io" 
+            target="_blank">
+            <img src="./assets/iconmonstr-github-5-50.png" 
+            alt="github Icon">
+          </a>
+          <a class="navbar-brand"
+            href="https://www.linkedin.com/in/vlad-kolmorgan-a795272a1/" 
+            target="_blank">
+            <img src="./assets/iconmonstr-linkedin-5-50.png" 
+            alt="linkedin Icon">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
